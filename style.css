@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(231,230,233);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: white;
+}
+.logo{
+    display: flex;
+    align-items:center ;
+}
+.primary-color{
+    color: rgb(255,66,165);
+}
+.logo h2{
+    font-size: 3rem;
+}
+.menus ul{
+    display: flex;
+    align-items: center;
+}
+.menus ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+.menus ul li a{
+    color: black;
+    font-size: 1.1rem;
+}
+
+ul .ytb-tiktok{
+    background-color:rgb(231,230,233);
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-right:0 ;
+}
+ li:last-child
+{
+    margin-right:0;
+}
