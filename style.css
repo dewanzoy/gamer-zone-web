@@ -229,9 +229,16 @@ ul .ytb-tiktok{
     border-radius: 25px;
     color: rgb(255,113,187);
 }
-.foot-container{
+/* footer des */
+footer{
     background: rgb(11,2,35);
-    height: 40vh;
+    height: 400px;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.foot-container{
+    align-content: center;
 }
 .logos{
     display: flex;
@@ -260,6 +267,19 @@ ul .ytb-tiktok{
 .foot-social-icon a{
     padding: 15px;
     font-size: 20px;
+    text-align: center;
+}
+.foot-pri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-pri a{
+    color: rgb(12,48,102);
+    padding: 20px;
+}
+.foot-dis p{
+    color: rgb(12,48,102);
     text-align: center;
 }
 /* button design end  */
