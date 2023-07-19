@@ -232,10 +232,9 @@ ul .ytb-tiktok{
 /* footer des */
 footer{
     background: rgb(11,2,35);
-    height: 400px;
+    height: 300px;
     align-content: center;
-    width: 90%;
-    margin: 0 auto;
+    padding-top: 100px;
 }
 .foot-container{
     align-content: center;
@@ -342,7 +341,44 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+    footer{
+        margin-top: 100px;
+    }
+    .foot-menu{
+        display: none;
+    }
 }
 
 
 /* start tab respon */
+@media screen and (min-width:577px) and (max-width:1024px) {
+    .header-info h1{
+        font-size: 3rem;
+    }
+    .header-banner{
+        gap: 30px;
+
+        }
+ .online-games-info h2{
+    font-size: 2rem;
+ }
+ .online-img img{
+    width: 150px;
+    align-items: center;
+ }
+ .play-container{
+    flex-direction: column;
+ }
+ .button-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.downsbuttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+footer{
+    margin-top: 100px;
+}
+}
