@@ -56,8 +56,9 @@ ul .ytb-tiktok{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
-    width: 90%;
+    margin: 0 auto;
+    width: 80%;
+    margin-right: 50px;
 }
 .header-img img{
     width: 70%;
@@ -145,6 +146,7 @@ ul .ytb-tiktok{
     margin: 0 auto;
     margin-top: 100px;
     width: 80%;
+    margin-right: 50px; 
 }
 .play-main-img img{
     width: 70%;
@@ -164,6 +166,32 @@ ul .ytb-tiktok{
 .playsword{
     color: rgb(238,143,215);
 }
+
+/* button design start  */
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.five-buttons img{
+    padding: 5px;
+    width: 50px;
+}
+.five-buttons a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 15px;
+}
+.five-buttons:hover a{
+    border: 1px solid rgb(255,113,187);
+    border-radius: 25px;
+    color: rgb(255,113,187);
+}
+/* button design end  */
 /* start mobile respon */
 
 @media screen and (max-width:576px) {
