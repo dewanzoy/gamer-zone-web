@@ -90,6 +90,9 @@ ul .ytb-tiktok{
 }
 /* end header banner */
 /* banner start */
+.banner-container-pro{
+    background: rgb(182, 7, 66);
+}
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -99,7 +102,7 @@ ul .ytb-tiktok{
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    /* background: rgb(255,249,252); */
+    
 }
 .banner-img img{
     width: 90%;
@@ -168,14 +171,21 @@ ul .ytb-tiktok{
 }
 
 /* button design start  */
-.button-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
+.all-buttons{
+    height: 300px;
 }
-
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+}
+.five-buttons{
+    border: 1px solid transparent;
+    width: 220px;
+}
 .five-buttons img{
     padding: 5px;
     width: 50px;
@@ -184,12 +194,73 @@ ul .ytb-tiktok{
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 0px 15px;
+    padding: 0px 5px;
+
 }
 .five-buttons:hover a{
     border: 1px solid rgb(255,113,187);
     border-radius: 25px;
     color: rgb(255,113,187);
+}
+/* down button design */
+
+.downsbuttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    align-content: center;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.four-button img{
+    width: 50px;
+}
+.four-button a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+}
+.four-button a:hover {
+    border: 1px solid rgb(255,113,187);
+    border-radius: 25px;
+    color: rgb(255,113,187);
+}
+.foot-container{
+    background: rgb(11,2,35);
+    height: 40vh;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.logos h2{
+    color: white;
+}
+.foot-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-menu a{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.foot-social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-social-icon a{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
 }
 /* button design end  */
 /* start mobile respon */
@@ -241,6 +312,15 @@ ul .ytb-tiktok{
     .play-container{
         align-items: center;
         margin-top: 30px;
+    }
+    .button-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .downsbuttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
 
