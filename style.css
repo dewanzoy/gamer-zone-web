@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
-    background-color: rgb(231,230,233);
+   
     
 }
 p{
@@ -71,7 +71,7 @@ ul .ytb-tiktok{
     font-size: 6rem;
     color: rgb(213,77,198);
 }
-.header-info .btns-1{
+.btns-1{
     color: white;
     background: rgb(255,36,189);
     border: none;
@@ -80,7 +80,7 @@ ul .ytb-tiktok{
     margin: 10px;
 }
 .header-info .btns-2{
-    color: white;
+    color: rgb(5, 5, 5);
     background: rgb(78,197,247);
     border: none;
     padding: 10px 15px;
@@ -88,3 +88,24 @@ ul .ytb-tiktok{
     margin: 10px;
 }
 /* end header banner */
+/* banner start */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    /* background: rgb(255,249,252); */
+}
+.banner-img img{
+    width: 80%;
+}
+.banner-info{
+    text-align: right;
+}
+.banner-info h2{
+    color: rgb(190,80,210);
+}
+/* banner end */
