@@ -9,6 +9,9 @@ body{
     background-color: rgb(231,230,233);
     
 }
+p{
+    margin: 10px 0;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -50,3 +53,38 @@ ul .ytb-tiktok{
 {
     margin-right:0;
 }
+/* start header banner */
+.header-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+}
+.header-img img{
+    width: 70%;
+}
+.header-info h2{
+    text-transform: uppercase;
+}
+.header-info h1{
+    font-size: 6rem;
+    color: rgb(213,77,198);
+}
+.header-info .btns-1{
+    color: white;
+    background: rgb(255,36,189);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.header-info .btns-2{
+    color: white;
+    background: rgb(78,197,247);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin: 10px;
+}
+/* end header banner */
