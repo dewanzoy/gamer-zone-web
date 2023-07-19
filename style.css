@@ -5,9 +5,7 @@
     text-decoration: none;
 }
 body{
-    font-family: 'Work Sans', sans-serif;
-   
-    
+    font-family: 'Work Sans', sans-serif; 
 }
 p{
     margin: 10px 0;
@@ -50,16 +48,16 @@ ul .ytb-tiktok{
     margin-right:0 ;
 }
  li:last-child
-{
+   {
     margin-right:0;
-}
+    }
 /* start header banner */
 .header-banner{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 .header-img img{
     width: 70%;
@@ -78,6 +76,7 @@ ul .ytb-tiktok{
     padding: 10px 15px;
     border-radius: 25px;
     margin: 10px;
+    cursor: pointer;
 }
 .header-info .btns-2{
     color: rgb(5, 5, 5);
@@ -86,6 +85,7 @@ ul .ytb-tiktok{
     padding: 10px 15px;
     border-radius: 25px;
     margin: 10px;
+    cursor: pointer;
 }
 /* end header banner */
 /* banner start */
@@ -136,10 +136,38 @@ ul .ytb-tiktok{
     width: 200px;
     margin-top: 50px;
 }
+/* online game end */
+
+.play-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+}
+.play-main-img img{
+    width: 70%;
+}
+.play-rel-img img{
+    width: 200px;
+    position: relative;
+    bottom: 170px;
+    right: 90px;
+}
+.play-info{
+    text-align: center;
+}
+.play-info h2{
+    font-size: 3rem;
+}
+.playsword{
+    color: rgb(238,143,215);
+}
 /* start mobile respon */
 
 @media screen and (max-width:576px) {
-    nav, .menus ul, .header-banner, .online-img
+    nav, .menus ul, .header-banner, .online-img, .play-container
     {
         flex-direction: column;
     }
@@ -169,6 +197,22 @@ ul .ytb-tiktok{
     }
     .online-games-info h2{
         font-size: 1.5rem;
+    }
+    .play-info h2{
+        font-size: 1.5rem;
+    }
+    .play-rel-img img{
+        width: 100px;
+        position: relative;
+        bottom: 100px;
+        right: 50px;
+    }
+    .play-main-img img{
+        width: 200px;
+    }
+    .play-container{
+        align-items: center;
+        margin-top: 30px;
     }
 }
 
