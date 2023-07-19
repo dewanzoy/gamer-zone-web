@@ -100,7 +100,7 @@ ul .ytb-tiktok{
     /* background: rgb(255,249,252); */
 }
 .banner-img img{
-    width: 80%;
+    width: 90%;
 }
 .banner-info{
     text-align: right;
@@ -109,3 +109,30 @@ ul .ytb-tiktok{
     color: rgb(190,80,210);
 }
 /* banner end */
+
+@media screen and (max-width:576px) {
+    nav, .menus ul, .header-banner{
+        flex-direction: column;
+    }
+    p{
+        font-size: 14px;
+    }
+    nav{
+        height: 100%;
+    }
+    .menus ul li{
+        margin-top: 10px;
+    }
+    .header-banner{
+        margin-top: 50px;
+    }
+    .header-info h1{
+        font-size: 4rem;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-info {
+        text-align: center;
+    }
+}
