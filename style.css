@@ -235,7 +235,7 @@ ul .ytb-tiktok{
 /* footer des */
 footer{
     background: rgb(11,2,35);
-    height: 300px;
+    height: 250px;
     align-content: center;
     padding-top: 100px;
 }
@@ -309,6 +309,7 @@ footer{
     }
     .banner-container{
         flex-direction: column;
+        margin-top: 40px;
     }
     .banner-info {
         text-align: center;
@@ -358,7 +359,7 @@ footer{
         font-size: 13px;
     }
     footer{
-        height: 400px;
+        height: 500px;
     }
     .foot-menu, .foot-social-icon
     {
