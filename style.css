@@ -277,11 +277,11 @@ footer{
     justify-content: center;
 }
 .foot-pri a{
-    color: rgb(12,48,102);
+    color: white;
     padding: 20px;
 }
 .foot-dis p{
-    color: rgb(12,48,102);
+    color: rgb(220, 229, 241);
     text-align: center;
 }
 /* button design end  */
@@ -381,9 +381,6 @@ footer{
     .header-info{
         width: 60%;
         }
-    .online-pic-box{
-        align-items: center;
-    }
  .online-games-info h2{
     font-size: 2rem;
  }
