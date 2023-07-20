@@ -357,10 +357,19 @@ footer{
     .games-buttons a{
         font-size: 13px;
     }
-    .foot-menu{
-        display: none;
+    footer{
+        height: 400px;
     }
-
+    .foot-menu, .foot-social-icon
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .foot-pri{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
 }
 
 
@@ -369,10 +378,12 @@ footer{
     .header-info h1{
         font-size: 3rem;
     }
-    .header-banner{
-        gap: 30px;
-
+    .header-info{
+        width: 60%;
         }
+    .online-pic-box{
+        align-items: center;
+    }
  .online-games-info h2{
     font-size: 2rem;
  }
@@ -385,13 +396,13 @@ footer{
  }
  .button-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.downsbuttons{
+/* .downsbuttons{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-}
+} */
 footer{
     margin-top: 100px;
 }
