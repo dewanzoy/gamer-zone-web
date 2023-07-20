@@ -405,10 +405,10 @@ footer{
     margin-top: 100px;
 }
 }
-@media screen and (min-width: 578px) and (max-width: 1024px)
+/* @media screen and (min-width: 578px) and (max-width: 1024px)
 {
-.online-img img {
+/* .online-img img {
     width: 229px;
     align-items: center;
 }
-}
+} */ */
