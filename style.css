@@ -175,36 +175,38 @@ ul .ytb-tiktok{
     height: 300px;
 }
 .button-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(5, 1fr); */
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
     width: 80%;
+    gap: 10px;
 }
-.five-buttons{
-    border: 1px solid transparent;
-    width: 220px;
+.games-buttons{
+    width: 200px;
 }
-.five-buttons img{
+.games-buttons img{
     padding: 5px;
     width: 50px;
 }
-.five-buttons a{
+.games-buttons a{
     display: flex;
     align-items: center;
     text-align: center;
     padding: 0px 5px;
+    border: 1px solid transparent;
 
 }
-.five-buttons:hover a{
+.games-buttons a:hover{
     border: 1px solid rgb(255,113,187);
     border-radius: 25px;
     color: rgb(255,113,187);
 }
 /* down button design */
 
-.downsbuttons{
+/* .downsbuttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -213,9 +215,9 @@ ul .ytb-tiktok{
     align-content: center;
     width: 60%;
     margin-top: 30px;
-}
+} */
 
-.four-button img{
+/* .four-button img{
     width: 50px;
 }
 .four-button a{
@@ -223,12 +225,13 @@ ul .ytb-tiktok{
     align-items: center;
     text-align: center;
     padding: 0px 10px;
+    border: 1px solid transparent;
 }
 .four-button a:hover {
     border: 1px solid rgb(255,113,187);
     border-radius: 25px;
     color: rgb(255,113,187);
-}
+} */
 /* footer des */
 footer{
     background: rgb(11,2,35);
@@ -334,19 +337,30 @@ footer{
     }
     .button-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
     }
-    .downsbuttons{
+    /* .downsbuttons{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    } */
+    .all-buttons{
+        height: 200px;
     }
-    footer{
-        margin-top: 100px;
+    .games-buttons{
+        width: 100px;
+    }
+    .games-buttons img {
+        width: 30px;
+    }
+    .games-buttons a{
+        font-size: 13px;
     }
     .foot-menu{
         display: none;
     }
+
 }
 
 
