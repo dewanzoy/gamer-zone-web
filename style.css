@@ -197,6 +197,7 @@ ul .ytb-tiktok{
     text-align: center;
     padding: 0px 5px;
     border: 1px solid transparent;
+    color: black;
 
 }
 .games-buttons a:hover{
@@ -309,7 +310,6 @@ footer{
     }
     .banner-container{
         flex-direction: column;
-        margin-top: 40px;
     }
     .banner-info {
         text-align: center;
